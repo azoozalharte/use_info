@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>مين أنت؟</title>
+  </head>
+  <body>
+    <!-- <p class="error">يجب عليكم إطفاء مانع الإعلانات لجب البيانات</p> -->
+    <div class="continer">
+      <!-- Info -->
+      <div class="info">
+        <h1></h1>
+        <!-- IP -->
+        <div class="api_info">
+          <p>عنوان جهازك:</p>
+          <p class="diynmic_info" id="ip"></p>
+        </div>
+        <!-- city -->
+        <div class="api_info">
+          <p>المدينة:</p>
+          <p class="diynmic_info" id="city"></p>
+        </div>
+        <!-- city -->
+        <div class="api_info">
+          <p>موقعك على الخريطة:</p>
+          <a class="diynmic_info" target="_blank" id="url_location">قوقل ماب</a>
+        </div>
+        <div class="api_info">
+          <p>مقدم خدمة الإنترنت لديك:</p>
+          <p class="diynmic_info" id="internet_provider"></p>
+        </div>
+        <div class="api_info">
+          <img src="" id="flag" alt="" />
+        </div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
